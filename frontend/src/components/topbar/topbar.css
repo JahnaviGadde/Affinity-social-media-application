@@ -1,0 +1,95 @@
+.color-nav {
+   background-color: #1e1e27;
+   border: 0.5px solid rgb(255, 255, 255);
+   height: 60px;
+    
+}
+.me-auto {
+    margin: 0 auto;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.nav-link {
+    font-family: 'Monsterrat', sans-serif;
+    color: black;
+}
+
+
+.NavBrand{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar {
+    border: none;
+    margin: 3vm;
+    border-bottom: 0.25px solid rgba(255, 255, 255, 0.50);
+}
+
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+}
+.searchsubmit{
+    border: none;
+    background-color: white;
+    
+}
+.searchIcon {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.searchInput {
+    border: none;
+    width: 85%;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLink {
+    margin-right: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.topbarImg {
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.logout{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color : white;
+    border-bottom: 0.25px solid rgb(100, 100, 100);
+    color : #1e1e27;;
+}
